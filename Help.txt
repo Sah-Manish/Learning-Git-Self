@@ -1,0 +1,47 @@
+sahma@DESKTOP-A5CVHCM MINGW64 ~/Desktop/Desktop/GitAndGithubPractice
+$ git config --global user.name Sah-Manish
+
+sahma@DESKTOP-A5CVHCM MINGW64 ~/Desktop/Desktop/GitAndGithubPractice
+$ git config --global user.email sahmanish10987@gmail.com
+
+sahma@DESKTOP-A5CVHCM MINGW64 ~/Desktop/Desktop/GitAndGithubPractice
+$ git init
+Initialized empty Git repository in C:/Users/sahma/Desktop/Desktop/GitAndGithubPractice/.git/
+
+sahma@DESKTOP-A5CVHCM MINGW64 ~/Desktop/Desktop/GitAndGithubPractice (master)
+$ touch firstfile.py
+
+sahma@DESKTOP-A5CVHCM MINGW64 ~/Desktop/Desktop/GitAndGithubPractice (master)
+$ vim firstfile.py
+
+sahma@DESKTOP-A5CVHCM MINGW64 ~/Desktop/Desktop/GitAndGithubPractice (master)
+$ python firstfile.py
+0 1 4 9 16 25 36 49 64 81 100
+Successfully executed!!!!!
+
+sahma@DESKTOP-A5CVHCM MINGW64 ~/Desktop/Desktop/GitAndGithubPractice (master)
+$ git remote add origin https://github.com/Sah-Manish/Learning-Git.git
+
+sahma@DESKTOP-A5CVHCM MINGW64 ~/Desktop/Desktop/GitAndGithubPractice (master)
+$ git add firstfile.py
+warning: LF will be replaced by CRLF in firstfile.py.
+The file will have its original line endings in your working directory
+
+sahma@DESKTOP-A5CVHCM MINGW64 ~/Desktop/Desktop/GitAndGithubPractice (master)
+$ git commit -m "Succesful Submitted!!!!"
+git commit -m "Succesful Submittedgit add firstfile.py git add firstfile.py "
+[master (root-commit) b909084] Succesful Submittedgit add firstfile.py git add firstfile.py
+ 1 file changed, 5 insertions(+)
+ create mode 100644 firstfile.py
+
+sahma@DESKTOP-A5CVHCM MINGW64 ~/Desktop/Desktop/GitAndGithubPractice (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 328 bytes | 109.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Sah-Manish/Learning-Git.git
+ * [new branch]      master -> master
+
